@@ -13,6 +13,7 @@ const speaker: SpeakerWithSessions = {
       title: "Opening Keynote",
       speaker: "Marta Fernandez",
       track: "Architecture",
+      level: "beginner",
       room: "Main Hall",
       startTime: "09:00",
       durationMinutes: 30,

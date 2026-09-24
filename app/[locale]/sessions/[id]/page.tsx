@@ -44,6 +44,9 @@ export default async function SessionDetailPage({
       <Flex direction="column" gap="3">
         <Flex align="center" gap="3">
           <Badge>{session.track}</Badge>
+          <Badge variant="secondary">
+            {session.level.charAt(0).toUpperCase() + session.level.slice(1)}
+          </Badge>
           <Text fontSize="sm" color="var(--text-muted)">
             {session.startTime} · {session.durationMinutes} min · {session.room}
           </Text>
