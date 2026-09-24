@@ -12,5 +12,12 @@
     "heading": "React Alicante Conference Companion",
     "line1": "Your schedule, your sessions —",
     "line2": "one place"
+  },
+  "SessionLevel": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "trackAriaLabel": "Track: {track}",
+    "levelAriaLabel": "Level: {level}"
   }
 }
