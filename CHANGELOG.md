@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.4.0] — 2026-09-24
+
+### Features
+
+- Add a Speakers page
+- Show each session's level
+
+### Maintenance
+
+- Add mise for toolchain version pinning
+- Trigger a preview build
+- Trigger the first-ever GitHub Actions run on the fork (Actions had never
+  been enabled since the fork was created)
+
+## Test Suite
+
+| Suite          | Status     |
+| -------------- | ---------- |
+| ESLint         | ⏳ pending |
+| Type-check     | ⏳ pending |
+| Unit tests     | ⏳ pending |
+| Build (Vercel) | ⏳ pending |
+
+CI: pending — will run once the release branch is pushed
+
 ## [0.3.1] — 2026-09-24
 
 ### Bug Fixes
